@@ -3,13 +3,6 @@
 ## Overview  
 This project combines extractive and abstractive approaches to extract high-quality keyphrases from news articles across multiple domains. The system is optimized for seven target domains: **AI, Automotive, Cybersecurity, Food, Environment, Real Estate, and Entertainment**.  
 
----
-
-## Keyphrase Extraction Demo  
-[Add a demo link or screenshot here]  
-
----
-
 ## 🚀 Features  
 
 ### 🧠 Smart Extraction Engine  
@@ -70,4 +63,4 @@ This project combines extractive and abstractive approaches to extract high-qual
 
 ## 👨‍💻 Author  
 **Karthik Shabari**  
-[Add your contact details, LinkedIn profile, or portfolio link here]  
+
