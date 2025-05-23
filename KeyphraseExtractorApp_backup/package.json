@@ -1,0 +1,57 @@
+{
+  "name": "keyphraseextractorapp",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npx expo start",
+    "android": "npx expo run:android",
+    "ios": "npx expo run:ios",
+    "web": "npx expo start --web",
+    "start-alt": "node node_modules/expo/bin/cli.js start",
+    "web-alt": "node node_modules/expo/bin/cli.js start --web"
+  },
+  "dependencies": {
+    "@expo/webpack-config": "^19.0.0",
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "@react-navigation/native": "^6.1.14",
+    "@react-navigation/native-stack": "^6.9.22",
+    "@react-navigation/stack": "^6.3.25",
+    "axios": "^1.6.2",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.1",
+    "expo": "^52.0.44",
+    "expo-constants": "~17.0.8",
+    "expo-file-system": "~18.0.12",
+    "expo-haptics": "~14.0.1",
+    "expo-linear-gradient": "~14.0.2",
+    "expo-linking": "~7.0.5",
+    "expo-screen-capture": "~7.0.1",
+    "expo-status-bar": "~2.0.1",
+    "expo-task-manager": "~12.0.6",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-native": "0.76.9",
+    "react-native-gesture-handler": "~2.20.2",
+    "react-native-paper": "^5.12.3",
+    "react-native-reanimated": "~3.16.1",
+    "react-native-safe-area-context": "4.12.0",
+    "react-native-screens": "~4.4.0",
+    "react-native-vector-icons": "^10.0.0",
+    "react-native-web": "~0.19.10",
+    "stream-browserify": "^3.0.0",
+    "vm-browserify": "^1.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@react-native-community/cli": "^18.0.0",
+    "@types/react": "~18.3.12",
+    "typescript": "^5.3.0"
+  },
+  "private": true,
+  "browser": {
+    "crypto": "crypto-browserify",
+    "stream": "stream-browserify",
+    "buffer": "buffer",
+    "vm": "vm-browserify"
+  }
+}
